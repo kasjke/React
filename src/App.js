@@ -12,6 +12,7 @@ function App() {
       <div className="app-wrapper">
         <Header />
         <Navbar />
+        <div>dfkhgdoifghdjfghjertghue4htroier</div>
         <Routes>
           <Route path="/dialogs/*" element={<Dialogs />} />
           <Route path="/profile" element={<Profile />} />
