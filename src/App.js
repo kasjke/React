@@ -12,10 +12,12 @@ function App() {
       <div className="app-wrapper">
         <Header />
         <Navbar />
-        <Routes>
-          <Route path="/dialogs/*" element={<Dialogs />} />
-          <Route path="/profile" element={<Profile />} />
-        </Routes>
+        <div>
+          <Routes>
+            <Route path="/dialogs/*" element={<Dialogs />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+        </div>
       </div>
     </BrowserRouter>
   );
