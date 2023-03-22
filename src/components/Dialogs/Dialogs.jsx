@@ -23,6 +23,8 @@ const Dialogs = () => {
     { id: 5, name: "Tanya" },
   ];
 
+  console.log('ddsfsdfds')
+
   return (
     <div className={w.dialogs}>
       <div className={w.dialogsitems}>
