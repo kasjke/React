@@ -17,6 +17,8 @@ const Dialogs = (props) => {
 
   let messagesElements = messages.map((m) => <Message message={m.message} />);
 
+  console.log('ddsfsdfds')
+
   return (
     <div className={w.dialogs}>
       <div className={w.dialogsitems}>{dialogsElements}</div>
