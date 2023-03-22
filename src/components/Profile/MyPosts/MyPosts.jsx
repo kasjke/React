@@ -3,9 +3,9 @@ import s from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
-  // let postElements = props.posts.map((p) => (
-  //   <Post message={p.message} like={p.like} />
-  // ));
+  let postElements = props.posts.map((p) => (
+    <Post message={p.message} like={p.like} />
+  ));
   return (
     <div>
       My posts
@@ -13,7 +13,7 @@ const MyPosts = (props) => {
         <textarea></textarea>
         <button>Add post</button>
       </div>
-      {/* <div className={s.posts}>{postElements}</div> */}
+      <div className={s.posts}>{postElements}</div>
     </div>
   );
 };

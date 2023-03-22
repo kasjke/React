@@ -9,10 +9,25 @@ let posts = [
   { id: 3, message: "Hi, You good?", like: 35 },
   { id: 4, message: "So nice to be here", like: 100 },
 ];
+let dialogs = [
+  { id: 1, name: "Dima" },
+  { id: 2, name: "Misha" },
+  { id: 3, name: "Sasha" },
+  { id: 4, name: "Masha" },
+  { id: 5, name: "Tanya" },
+];
+let messages = [
+  { id: 1, message: "Hello" },
+  { id: 2, message: "message" },
+  { id: 3, message: "How are you" },
+  { id: 4, message: "Are you ok?" },
+  { id: 5, message: "yes,good!" },
+];
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <App posts={posts} />
+    <App posts={posts} dialogs={dialogs} messages={messages} />
   </React.StrictMode>
 );
 
