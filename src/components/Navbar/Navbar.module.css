@@ -8,3 +8,20 @@
   color: white;
   text-decoration: none;
 }
+
+.itemS a {
+  color: white;
+  text-decoration: none;
+}
+.itemS {
+  padding-top: 20px;
+}
+
+.friends a {
+  color: white;
+  text-decoration: none;
+}
+.friends {
+  padding-top: 20px;
+  font-size: 25px;
+}
