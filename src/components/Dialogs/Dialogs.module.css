@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 2fr 10fr;
   padding: 10px;
+  background-color: cornflowerblue;
+  padding: 25px;
 }
 .dialogsitems {
   padding: 10px;
